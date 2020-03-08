@@ -41,8 +41,8 @@ div#conteneur h2 a /*designer*/
 .gif /*gif de présentation*/
 {	
   position : absolute;
-  top : 230px;
-  left : 350px;
+  top : 200px;
+  left : 330px;
 }
 .texte1 
 {	
@@ -58,16 +58,10 @@ div#conteneur h2 a /*designer*/
   color: #B0B0B0;
   text-decoration: none;
 }
-.brain
-{	
-  position : absolute;
-  top : 900px;
-  left : 800px;
-} 
 .texte2 
 {	
   position : absolute;
-  top : 1300px;
+  top : 1070px;
   left : 750px;
   width: 350px;
   height: auto;
@@ -78,16 +72,16 @@ div#conteneur h2 a /*designer*/
   color: #B0B0B0;
   text-decoration: none;
 }
-.telescope
+.brain
 {	
   position : absolute;
-  top : 1400px;
+  top : 1900px;
   left : 350px;
 } 
 .texte3 
 {	
   position : absolute;
-  top : 1800px;
+  top : 1550px;
   left : 350px;
   width: 350px;
   height: auto;
@@ -98,17 +92,25 @@ div#conteneur h2 a /*designer*/
   color: #B0B0B0;
   text-decoration: none;
 }
-.tools
+.square 
 {	
-  position : absolute;
-  top : 2000px;
-  left : 750px;
+  position : fixed;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 2200px;
+} 
+.contact a
+{	
+  position : fixed;
+  top : 50px;
+  left : 1180px;
 } 
 ul#menu
 {
   position: fixed;
   left: 10px;
-  top: 200px; 
+  top: 210px; 
   list-style-type: none ;
   float: left ;
   text-decoration: none;
@@ -120,22 +122,23 @@ ul#menu li
 ul#menu li a
 {
   font-family: Inter;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 15px;
-  line-height: 40px;
+  line-height: 33px;
   letter-spacing: 0.5px;
   text-decoration: none;
-  color: #3B3B3B;
+  color: #666666;
   text-align: center;
 }
 ul#menu li a:hover
 {
-  color: grey;
-  border-bottom: 3px solid;
+  color: #3B3B3B;
+  background-color: #48FF92;
 } 
 ul#menu #en-cours a
 {
-  color: grey;
+  color: #3B3B3B;
+  background-color: yellow;
 } 
 
   </style>
@@ -144,19 +147,28 @@ ul#menu #en-cours a
   <div id="conteneur">
      <span class = gif><img src="images/home.gif" width="700px" height="auto"></span>
      <span class = texte1>Jeune designer, je privilégie dans mes projets une vision centrée utilisateur. Je m’intéresse aux dimensions anthropologique et sociologique que porte le design pour créer du sens entre l’environnement et l’humain.</span>
-     <span class = brain><img src="images/brain.png" width="300px" height="auto"></span>
-     <span class = texte2>Forte d’un master de recherche en design à l’École Normale de Paris Saclay, j’aime élaborer des projets sous forme de recherche-action. Entre axes de recherche et expérimentations, je formalise des objets, des services et des parcours utilisateurs.</span>
-     <span class = telescope><img src="images/telescope.gif" width="250px" height="auto"></span>
-     <span class = texte3>J’emprunte des outils sociologiques et des méthodes créatives du design thinking pour développer des projets qui font sens aux différents usagers. Je travaille régulièrement à partir de témoignages, questionnaires, entretiens, observations terrain pour une meilleure expérience utilisateur.</span>
-     <span class = tools><img src="images/tools.png" width="300px" height="auto"></span>
-     <h1 id="header"><a href="home.html">marie-lorraine chiriacopol</a></h1>
-     <h2 id="header"><a href="home.html">designer</a></h2>
+     <span class = texte2>Forte d’un master de recherche en design à l’École Normale de Paris-Saclay, j’aime élaborer des projets sous forme de recherche-action. Entre recherche documentaire et expérimentations, je formalise des objets, des services et des parcours utilisateurs.</span>
+     <span class = texte3>J’emprunte des outils sociologiques et des méthodes créatives du design thinking pour développer des projets. Je travaille régulièrement à partir de témoignages, questionnaires, entretiens, observations terrain pour une meilleure expérience utilisateur.</span>
+     <span class = brain><img src="images/brain.gif" width="250px" height="auto"></span>
+     <span class = contact><a href="contact.html"><img src="images/contact.png" width="30px" height="auto"></a></span>
+     <span class = square></a></span>
+
+     <h1 id="header"><a href="index.html">marie-lorraine chiriacopol</a></h1>
+     <h2 id="header"><a href="index.html">designer</a></h2>
 
     <nav>
       <ul id="menu">
-      	<li><a href="projet1.html">projet1</a></li>
-        <li><a href="projet2.html">projet2</a></li>
-        <li><a href="projet3.html">projet3</a></li>     
+      	<li><a href="comparative_democracies.html">c.democracies</a></li>
+        <li><a href="civic_tech">civic tech</a></li>
+        <li><a href="temps_espace">le temps de l'espace</a></li>
+        <li><a href="habiter.html">habiter l'Antarctique</a></li>  
+        <li><a href="seclairer.html">s'éclairer</a></li>  
+        <li><a href="marcher.html">marcher</a></li>  
+        <li><a href="contempler.html">contempler</a></li>  
+        <li><a href="se promener.html">se promener</a></li>   
+        <li><a href="se souvenir.html">se souvenir</a></li> 
+        <li><a href="switch.html">switch</a></li> 
+        <li><a href="superstable.html">superstable</a></li>     
       </ul>
       
     </nav>
